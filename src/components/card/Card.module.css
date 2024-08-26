@@ -1,0 +1,74 @@
+/* Card.module.css */
+
+.cardContainer {
+    padding-top: 0;
+    height: 100%;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    transition: box-shadow 0.2s ease-in-out;
+    max-width: 20rem;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background-color: #e5e7eb; 
+  }
+  
+  .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .cardBody {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .titleContainer {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    color: #1f2937; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: -0.025em;
+  }
+  
+  .link {
+    margin-left: 1rem;
+    vertical-align: middle;
+  }
+  
+  .description {
+    margin-top: 0.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #4b5563; 
+    line-height: 1.5rem;
+  }
+  
