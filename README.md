@@ -31,13 +31,18 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![Screen Recording 2024-08-26 at 11 07 30 AM](https://github.com/user-attachments/assets/e0ab413e-dd4f-4a35-869a-eb7c1e832a2c)
+
+
+https://github.com/user-attachments/assets/f65c00f1-0487-4234-b393-24317b8eb7b9
+
+
 
 
 
 ## Notes
 
-A challenged I faced was using DOTENVs for APIKEYS with React. 
+- A challenged I faced was using DOTENVs for APIKEYS with React.
+- Not able to convert long videos to GIF
 
 ## License
 
